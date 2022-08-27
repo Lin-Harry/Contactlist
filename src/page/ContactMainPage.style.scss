@@ -19,6 +19,13 @@
                 margin-right: 10px;
             }
         }
+        .showlist{
+            width: 79%;
+            margin:15px auto;
+            .showName{
+                margin-right: 30px;
+            }
+        }
         list-style-type:none;
         li{
             display: flex;
@@ -38,6 +45,7 @@
                 display: flex;
                 .user-name-letter{
                     background-color: lightblue;
+                    cursor: pointer;
                     width: 20px;
                     height: 20px;
                     padding: 10px;
